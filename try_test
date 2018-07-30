@@ -1,0 +1,14 @@
+def divide(x,y):
+  try:
+    result = x / y
+    print("例外は発生しません")
+    return result
+  except ZeroDivisionError:
+    print("0は除算できません")
+  
+  #例外発生してもしなくても通る処理
+  finally:
+    print("終了処理")
+    
+def(100,0)
+def(100,10)
